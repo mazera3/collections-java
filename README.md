@@ -1,5 +1,5 @@
 <h1>
-Curso Introdutório Collections Java
+Curso Introdutório Collections Java - Estudante
 </h1>
 
 <p>Resolução dos exercícios propostos: <strong>CURSO INTRODUTÓRIO COLLECTIONS FRAMEWORK JAVA</strong>.
