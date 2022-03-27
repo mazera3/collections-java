@@ -1,8 +1,7 @@
 package br.com.dio.collection.list;
 
 /*Dadas as seguintes informações sobre meus gatos, crie uma lista
-e ordene esta lista exibindo:
-(nome - idade - cor);
+e ordene esta lista exibindo: (nome - idade - cor);
 
 Gato 1 = nome: Jon, idade: 18, cor: preto
 Gato 2 = nome: Simba, idade: 6, cor: tigrado
@@ -52,7 +51,7 @@ public class ExemploOrdenacaoList {
         System.out.println(meusGatos);
     }
 }
-
+/* Classe Gato */
 class Gato implements Comparable<Gato>{
     private String nome;
     private Integer idade;
@@ -90,14 +89,14 @@ class Gato implements Comparable<Gato>{
         return this.getNome().compareToIgnoreCase(gato.getNome());
     }
 }
-
+/* Classe Comparar Idade */
 class ComparatorIdade implements Comparator<Gato> {
     @Override
     public int compare(Gato g1, Gato g2) {
         return Integer.compare(g1.getIdade(), g2.getIdade());
     }
 }
-
+/* Classe Compara Cor */
 class ComparatorCor implements Comparator<Gato> {
 
     @Override
@@ -105,7 +104,7 @@ class ComparatorCor implements Comparator<Gato> {
         return g1.getCor().compareToIgnoreCase(g2.getCor());
     }
 }
-
+/* Classe Comparar Nome/Cor/Idade */
 class ComparatorNomeCorIdade implements Comparator<Gato> {
 
     @Override

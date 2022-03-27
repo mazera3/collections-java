@@ -42,8 +42,8 @@ class ExemploList {
 
         System.out.println("Confira se a nota 5.0 está na lista: " + notas.contains(5d));
 
-        /*System.out.println("Exiba todas as notas na ordem em que foram informados: ");
-        for (Double nota : notas) System.out.println(nota);*/
+        //System.out.println("Exiba todas as notas na ordem em que foram informados: ");
+        //for (Double nota : notas) System.out.println(nota);
 
         System.out.println("Exiba a terceira nota adicionada: " + notas.get(2));
         System.out.println(notas.toString());
@@ -78,10 +78,10 @@ class ExemploList {
         }
         System.out.println(notas);
 
-        /*System.out.println("Apague toda a lista");
+        System.out.println("Apague toda a lista");
         notas.clear();
         System.out.println(notas);
-        */
+        
         System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
 
 /*
