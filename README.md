@@ -62,4 +62,4 @@ Se possível:
 
 ------------
 
-Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").
+Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la" e alterado po [edio](https://www.linkedin.com/in/edio-mazera-55515217a/)).
